@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_SESSION['email'] = $email;
         $_SESSION['password'] = $password;
         mysqli_close($conn);
-        header("Location: ./admin-index.php");
+        header("Location: ./admin-auction-page.php");
         exit();
     } else {
         $message = "Invalid email or password";

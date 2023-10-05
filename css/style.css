@@ -849,3 +849,11 @@ img {
     padding-left: 20px;
     padding-top: 20px;
 }
+
+.image-input-upload {
+
+}
+
+.image-input-upload::-webkit-file-upload-button{
+    visibility: hidden;
+}
