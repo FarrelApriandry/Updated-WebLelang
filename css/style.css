@@ -656,6 +656,7 @@ img {
 
 .sidebar-img-active {
     filter: invert(30%) sepia(96%) saturate(4437%) hue-rotate(241deg) brightness(100%) contrast(102%);
+    -webkit-filter: invert(30%) sepia(96%) saturate(4437%) hue-rotate(241deg) brightness(100%) contrast(102%);
 }
 
 
@@ -679,6 +680,7 @@ img {
     /* text-align: center; */
     padding-top: 10px;
     display: flex;
+    color: #171717;
 }
 
 .sidebar-content li {
@@ -753,6 +755,7 @@ img {
     -o-border-radius:15px;
     font-size: 16px;
     cursor: pointer;
+    font-family: var(--rubik);
 }
 
 .btn-upload:hover {
