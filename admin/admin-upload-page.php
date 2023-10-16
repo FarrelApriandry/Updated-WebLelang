@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="../js/main.js"></script>
 </head>
 <body class="body-admin-index">
     <div class="sidebar">
@@ -24,10 +25,11 @@
         </a>
     </div>
     <div class="upload-auction-container">
-        <form action="" method="POST">
+        <form action="" method="POST" enctype="multipart/form-data">
             <div class="upload-auction-content">
-                <input id="f02" type="file" placeholder="Add profile picture" />
-                    <label for="f02">Add profile picture</label>
+                <button class="btn-upload-file" onclick="document.getElementById('imageInput').click()"><img src="../img/upload-btn.svg" alt="">Your Image here</button>
+                <input type='file' id="imageInput" style="display:none">
+                <img id="previewImage" src="" alt="Preview Image">
                 <input type="text"name="" id="" placeholder="Name">
                 <input type="date" name="" id="" >
                 <input type="number"name="" id="" placeholder="OpenBid">
