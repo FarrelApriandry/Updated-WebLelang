@@ -26,7 +26,8 @@
     <div class="upload-auction-container">
         <form action="" method="POST">
             <div class="upload-auction-content">
-                <input type="file" src="" alt="" class="image-input-upload" placeholder="">
+                <input id="f02" type="file" placeholder="Add profile picture" />
+                    <label for="f02">Add profile picture</label>
                 <input type="text"name="" id="" placeholder="Name">
                 <input type="date" name="" id="" >
                 <input type="number"name="" id="" placeholder="OpenBid">
